@@ -3,8 +3,9 @@
 
 依赖
 ------
-[![s2geometry](https://github.com/google/s2geometry)
-[![php-x](https://github.com/swoole/PHP-X)
+
+* s2geometry: https://github.com/google/s2geometry
+* php-x: https://github.com/swoole/PHP-X
 
 安装
 ------
@@ -21,11 +22,7 @@ sudo make install
 Edit php.ini, add extension=s2.so
 ```
 
-run test
+测试
 ```
 php example.php
 ```
-
-
-
-``
