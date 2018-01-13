@@ -29,3 +29,12 @@ Edit php.ini, add extension=s2.so
 ```
 php example.php
 ```
+
+函数
+------
+```
+int s2_cellid(float lat, float lng)
+array s2_getcoving(float lat, float lng, float radius, int maxcell)
+```
+
+如果s2geometry编译困难，可使用s2go-php-ext: http://github.com/fieldhood/s2go-php-ext
