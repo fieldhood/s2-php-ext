@@ -9,6 +9,9 @@ s2-php-ext
 * s2geometry: https://github.com/google/s2geometry
 * php-x: https://github.com/swoole/PHP-X
 
+因为s2geometry是一个c++库，所以使用php-x做php扩展非常nice
+本扩展依赖  gflags.so glob.so libs2.so php-x.so
+
 安装
 ------
 
