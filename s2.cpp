@@ -115,7 +115,7 @@ PHPX_FUNCTION(s2_getconver)
 
 PHPX_EXTENSION()
 {
-    Extension *extension = new Extension("s2test", "0.0.1");
+    Extension *extension = new Extension("s2", "0.0.1");
     extension->registerFunction(PHPX_FN(s2_getconver));
     extension->registerFunction(PHPX_FN(s2_cellid));
 
